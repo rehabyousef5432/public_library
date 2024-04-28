@@ -1,0 +1,208 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url("../../fonts/Jokerman/Jokerman.otf");
+}
+@font-face {
+  font-family: mysecondFont;
+  src: url("../../fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf");
+}
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+:root {
+  --primery_color: rgb(0, 126, 148);
+}
+
+.primary_bg {
+  background-color: var(--primery_color);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.form {
+  background: rgb(0, 126, 148);
+  background: linear-gradient(
+    90deg,
+    rgb(0, 126, 148) 0%,
+    rgb(0, 126, 148) 49%,
+    rgb(226, 227, 234) 49%,
+    rgb(226, 227, 234) 100%
+  );
+  min-height: 100%;
+}
+.form .card {
+  border-radius: 24px;
+  border: 8px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 7px 14px 4px rgba(255, 255, 255, 0.23);
+  background-color: transparent;
+}
+.form .card form input::-moz-placeholder {
+  font-size: 13px;
+  color: rgba(129, 137, 129, 0.588);
+}
+.form .card form input::placeholder {
+  font-size: 13px;
+  color: rgba(129, 137, 129, 0.588);
+}
+.form .card form a.sign_link {
+  text-decoration: none;
+  color: var(--primery_color);
+}
+.form .card form .or_item {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 20px;
+  font-weight: bold;
+}
+.form .card form .or_item:after,
+.form .card form .or_item:before {
+  content: " ";
+  width: 100px;
+  height: 1px;
+  background-color: black;
+  display: block;
+}
+.form .card .right_side {
+  border-radius: 24px;
+}
+.form .card img.position-absolute {
+  top: 20px;
+  left: 20px;
+  width: 200px;
+}
+.form .card .img_form {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.form .card .form-check-input:checked {
+  border-color: var(--primery_color);
+  background-color: var(--primery_color);
+}
+.form .card button.sign {
+  background-color: var(--primery_color);
+  color: white;
+  font-weight: bold;
+}
+.form .card .forgot {
+  color: var(--primery_color);
+  font-weight: bold;
+  text-decoration: none;
+}
+.form .card a.btn {
+  background-color: rgb(15, 31, 64);
+  color: white;
+  font-size: 14px;
+}
+
+.main .welcom_text {
+  font-family: mysecondFont;
+  font-weight: bolder;
+}
+.main .newly_books {
+  background-color: #f5deb3;
+  border: 15px solid #3b9cad;
+  border-radius: 50px;
+  padding: 20px 0px;
+  margin: 20px 0px;
+}
+.main .newly_books h2 {
+  font-size: 27px;
+  font-family: myFirstFont;
+}
+.main .newly_books img {
+  width: 60px !important;
+  height: 60px;
+  border-radius: 50%;
+}
+.main .newly_books a {
+  text-decoration: none;
+  gap: 20px;
+  padding: 5px 10px;
+  align-items: flex-end;
+}
+.main .newly_books a p,
+.main .newly_books a h3 {
+  padding: 3px;
+  margin: 0px;
+  color: #693128;
+}
+.main .newly_books a h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
+.main .select_one .col-sm-4 {
+  margin: 20px 0px;
+}
+.main .select_one a {
+  background-color: hsl(39, 77%, 83%);
+  text-decoration: none;
+  display: block;
+  margin: 0px 5px;
+  height: 100%;
+  padding: 40px 2px;
+  border-radius: 50px;
+}
+.main .select_one a h2 {
+  color: black;
+  font-family: myFirstFont;
+  font-size: 24px;
+}
+.main .select_one a p {
+  color: white;
+  background-color: var(--primery_color);
+  margin: 30px 10px;
+  padding: 20px 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 3px 1px black;
+}
+.main .select_one a img {
+  width: 50%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: 6px solid black;
+}
+
+@media only screen and (max-width: 768px) {
+  img.position-absolute {
+    position: relative !important;
+    display: block;
+    margin-bottom: 30px;
+  }
+  .form.register {
+    background: linear-gradient(
+      180deg,
+      rgb(0, 126, 148) 0%,
+      rgb(0, 126, 148) 39%,
+      rgb(226, 227, 234) 39%,
+      rgb(226, 227, 234) 100%
+    );
+  }
+  .form.login {
+    background: linear-gradient(
+      180deg,
+      rgb(0, 126, 148) 0%,
+      rgb(0, 126, 148) 45%,
+      rgb(226, 227, 234) 45%,
+      rgb(226, 227, 234) 100%
+    );
+  }
+  .left_side {
+    border-radius: 24px;
+  }
+  .left_side h1 {
+    padding: 40px 30px !important;
+  }
+} /*# sourceMappingURL=style.css.map */

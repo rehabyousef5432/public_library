@@ -1,0 +1,231 @@
+.add-author {
+  /* width: 80%; */
+  height: 60px;
+  margin: 20px;
+  border-radius: 13px;
+  background-color: #d9d9d9;
+}
+
+.add-author h2 {
+  color: black;
+  font-size: 24px;
+  font-family: "Saira Stencil One";
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3.6;
+  word-wrap: break-word;
+}
+
+.add-author button {
+  background-color: var(--primary-color);
+  width: 135px;
+  height: 35px;
+  padding: 0;
+  border-radius: 13px;
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3;
+  word-wrap: break-word;
+}
+
+.add-author button:hover {
+  outline: 0;
+  background-color: var(--primary-color);
+}
+
+.author-menu {
+  margin: 10px;
+  border-radius: 13px;
+}
+
+.author-menu {
+  background-color: var(--main-color);
+  border: 6px solid black;
+  border-radius: 13px;
+}
+
+.menu-search-search {
+  width: 135px;
+  height: 38px;
+  background-color: #fbfbfb;
+  border-radius: 52px;
+  padding: 1px 5px;
+}
+
+.menu-search-search input {
+  width: 100%;
+  height: 100%;
+  padding: 3px 5px;
+  border-radius: 52px;
+  background-color: #fbfbfb;
+  border: none;
+}
+
+.menu-search-search input:focus {
+  outline: 0;
+}
+
+.menu-search button {
+  background-color: var(--primary-color);
+  width: 135px;
+  height: 35px;
+  text-align: center;
+  padding: 0;
+  border-radius: 13px;
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3;
+  word-wrap: break-word;
+}
+
+.menu-search button:hover {
+  outline: 0;
+  background-color: var(--primary-color);
+  /* transition: all 1s; */
+}
+
+.grid-container button {
+  background-color: var(--primary-color);
+  width: 135px;
+  height: 35px;
+  text-align: center;
+  padding: 0;
+  border-radius: 13px;
+  color: #010101;
+  font-size: 20px;
+  font-family: "ae_Dimnah";
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3;
+  word-wrap: break-word;
+}
+
+.grid-container {
+  border-top: 4px solid #010101;
+}
+
+.grid-container button:hover {
+  outline: 0;
+  background-color: orange;
+  /* transition: all 1s; */
+}
+
+.grid-container > div {
+  padding-left: 5px;
+}
+
+.nav-menu {
+  color: black;
+  font-size: 20px;
+  font-family: "ae_Dimnah";
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3;
+  word-wrap: break-word;
+}
+
+.grid-container-data {
+  cursor: pointer;
+  color: black;
+  font-size: 14px;
+  font-family: "ae_Dimnah";
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2.1;
+  word-wrap: break-word;
+}
+
+/* ME */
+.myDesign {
+  display: flex;
+  padding: 5px;
+}
+.myLeft {
+  flex: 1;
+  max-height: 65vh;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: -1px 0px 17px 4px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: -1px 0px 17px 4px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: -1px 0px 17px 4px rgba(0, 0, 0, 0.63);
+}
+.subInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.userImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 5px;
+}
+.subDetails {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.accountInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+}
+
+.myRight {
+  flex: 2;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.myHead {
+  display: flex;
+  padding: 5px;
+  margin: 10px;
+}
+.myTwo {
+  display: flex;
+  padding: 5px;
+  margin: 10px 0 20px 10px;
+}
+.myTwoLeft {
+  display: flex;
+  background-color: burlywood;
+  flex-direction: column;
+  margin-right: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: -1px 0px 17px 4px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: -1px 0px 17px 4px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: -1px 0px 17px 4px rgba(0, 0, 0, 0.63);
+}
+.myTwoLeftRight {
+  background-color: maroon;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: -1px 0px 17px 4px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: -1px 0px 17px 4px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: -1px 0px 17px 4px rgba(0, 0, 0, 0.63);
+}
+.myEnd {
+}
+/* ME */
+
+@media (max-width: 1200px) {
+  /* .categor-menu {
+        width: 100%;
+    } */
+  .menu-items {
+    width: 1000px;
+  }
+}
